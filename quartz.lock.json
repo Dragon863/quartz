@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "favicon": {
+      "source": "github:quartz-community/favicon",
+      "resolved": "https://github.com/quartz-community/favicon.git",
+      "commit": "a135fe23e35cb95b2a6d8a3909e301ef769eb70f",
+      "installedAt": "2026-10-04T16:12:31.486Z"
+    },
+    "obsidian-plugin-excalidraw": {
+      "source": "github:quartz-community/obsidian-plugin-excalidraw",
+      "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
+      "commit": "997fc5f0bb0695a97c044fcb6838b5fbf0f9b854",
+      "installedAt": "2026-10-03T23:02:00.222Z"
+    }
+  }
+}

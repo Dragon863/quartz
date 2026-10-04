@@ -1,45 +1,45 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Daniel's Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  locale: en-GB
+  baseUrl: notes.danieldb.uk
   ignorePatterns:
-    - private
-    - templates
+    - "**/Lectures/**"
+    - Obsidian Stuff.md
     - .obsidian
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
+      header: Inter
       body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#faf4ed"
+        lightgray: "#f2e9e1"
+        gray: "#9893a5"
+        darkgray: "#464261"
+        dark: "#464261"
+        secondary: "#286983"
+        tertiary: "#d7827e"
+        highlight: rgba(144, 122, 169, 0.18)
+        textHighlight: rgba(234, 157, 52, 0.35)
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#191724"
+        lightgray: "#26233a"
+        gray: "#6e6a86"
+        darkgray: "#e0def4"
+        dark: "#e0def4"
+        secondary: "#9ccfd8"
+        tertiary: "#ebbcba"
+        highlight: rgba(196, 167, 231, 0.18)
+        textHighlight: rgba(246, 193, 119, 0.4)
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -100,11 +100,6 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
-  - source: "@quartz-themes/core"
-    enabled: false
-    options:
-      theme: tokyo-night
-      mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
@@ -203,8 +198,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Website: https://danieldb.uk
+        GitHub: https://github.com/dragon863
+        Contact: mailto:hi@danieldb.uk
     layout:
       position: footer
       priority: 50
@@ -257,6 +253,20 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+  #  - source: "@quartz-themes/core"
+  #    enabled: true
+  #    options:
+  #      theme: garden-gnome-adwaita-gtk
+  #      mode: both
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
+  - source: github:quartz-community/favicon
+    enabled: true
 layout:
   groups:
     toolbar:

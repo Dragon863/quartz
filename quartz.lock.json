@@ -8,10 +8,10 @@
       "installedAt": "2026-10-04T16:12:31.486Z"
     },
     "obsidian-plugin-excalidraw": {
-      "source": "github:quartz-community/obsidian-plugin-excalidraw",
-      "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
-      "commit": "997fc5f0bb0695a97c044fcb6838b5fbf0f9b854",
-      "installedAt": "2026-10-03T23:02:00.222Z"
+      "source": "github:dragon863/obsidian-plugin-excalidraw",
+      "resolved": "https://github.com/dragon863/obsidian-plugin-excalidraw.git",
+      "commit": "2ed7da2d87af2a0845adb474b2bc5b7b4de3209b",
+      "installedAt": "2026-10-07T18:38:15.954Z"
     }
   }
 }

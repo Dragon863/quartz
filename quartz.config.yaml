@@ -9,9 +9,9 @@ configuration:
   locale: en-GB
   baseUrl: notes.danieldb.uk
   ignorePatterns:
-    - "**/Lectures/**"
     - Obsidian Stuff.md
     - .obsidian
+    - Excalidraw/
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -262,15 +262,15 @@ plugins:
     options:
       theme: tokyo-night
       mode: both
-  - source: github:quartz-community/obsidian-plugin-excalidraw
+  - source: github:quartz-community/favicon
+    enabled: true
+  - source: github:dragon863/obsidian-plugin-excalidraw
     enabled: true
     options:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
     order: 50
-  - source: github:quartz-community/favicon
-    enabled: true
 layout:
   groups:
     toolbar:

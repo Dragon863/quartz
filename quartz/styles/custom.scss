@@ -4,3 +4,8 @@
 blockquote.callout {
     padding-left: 12px !important;
 }
+
+body.theme-light button.darkmode,
+body.theme-light button.readermode {
+    background-color: var(--darkgray) !important;
+}

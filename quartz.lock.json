@@ -10,8 +10,8 @@
     "obsidian-plugin-excalidraw": {
       "source": "github:dragon863/obsidian-plugin-excalidraw",
       "resolved": "https://github.com/dragon863/obsidian-plugin-excalidraw.git",
-      "commit": "2ed7da2d87af2a0845adb474b2bc5b7b4de3209b",
-      "installedAt": "2026-10-07T18:38:15.954Z"
+      "commit": "87342c5d1b099c90c312e7858981404e97699935",
+      "installedAt": "2026-10-28T18:53:55.322Z"
     }
   }
 }

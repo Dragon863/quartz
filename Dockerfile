@@ -12,6 +12,8 @@ COPY quartz.lock.json* quartz.config.yaml* quartz.ts* ./
 
 RUN npm ci \
     && npx quartz plugin install
+RUN npm ci \
+    && npx quartz plugin update
 
 FROM node:22-slim
 WORKDIR /usr/src/app

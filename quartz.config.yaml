@@ -12,6 +12,10 @@ configuration:
     - Obsidian Stuff.md
     - .obsidian
     - Excalidraw/
+    - "**/Tutorials/**"
+    - "**/tutorials/**"
+    - "**/*Tutorial*"
+    - "**/*tutorial*"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
